@@ -25,7 +25,8 @@
   font-size: 18px;
   color: #757575;
 }
-.text_center{
+
+.text_center {
   text-align: center;
 }
 
@@ -40,6 +41,7 @@
   border: none;
 
 }
+
 .btn {
   background-color: #ffff;
   font-weight: 700;
@@ -49,9 +51,8 @@
   font-size: 20px;
   border-color: #FD6E0A;
   margin-left: 30px;
-  
-
 }
+
 .header {
   background-image: url('../images/developer.png'), url('../images/header_bg.png');
   background-repeat: no-repeat;
@@ -121,7 +122,8 @@ main {
   margin: 0 auto;
 
 }
-main section{
+
+main section {
   margin-top: 130px;
   margin-bottom: 130px;
 }
@@ -141,49 +143,63 @@ main section{
 
 .item_description {
   font-weight: 600;
+
+}
+
+/* skills section styles */
+.skills_container {
+  display: flex;
+  gap: 24px;
+
+}
+
+.skill {
+  padding: 30px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.615);
+  border-radius: 10px;
   
 }
-/* skills section styles */
-.skills_container{
-  display: flex;
-  gap: 24px;
 
-}
-.skill{
-  padding: 30px;
-  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.615);
-
-}
 /* resuma section style */
-.resune_container{
+.resune_container {
   display: flex;
   gap: 24px;
 }
-.experience_sub_title{
+
+.experience_sub_title {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
 }
-.expeience_description, .experience_sub_title{
+
+.expeience_description,
+.experience_sub_title {
   color: #757575;
 }
-.resume hr{
+
+.resume hr {
   margin: 30px 0px;
 }
-.resume_downlad_cv{
+
+.resume_downlad_cv {
   margin-top: 50px;
 }
+
 /* footer section style */
-footer{
+footer {
   padding: 130px 230px;
   display: flex;
   gap: 100px;
 
 }
-.footer_column{
+
+.footer_column {
   width: 50%;
 }
-footer input[type="text"], footer input[type="email"],footer textarea{
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
   height: 30px;
   border-radius: 5px;
   background-color: rgb(243, 240, 235);
